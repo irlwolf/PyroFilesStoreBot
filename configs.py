@@ -9,7 +9,7 @@ class Config(object):
 	BOT_TOKEN = os.environ.get("BOT_TOKEN",("8139084920:AAHcSfLTQxA4QLt4a3W-DRilryr4Kdccn3w"))
 	BOT_USERNAME = os.environ.get("BOT_USERNAME",("irlwolfstorebot"))
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002452376610"))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1445283714"))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1302460619"))
 	DATABASE_URL = os.environ.get("DATABASE_URL",("mongodb+srv://irlwolf:9aEpUre0fkmBjHVz@cluster0.jkd3o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"))
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002470891127")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", ("-1002452376610"))
